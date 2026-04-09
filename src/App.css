@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content-wrapper {
+  margin-left: 280px; /* Sidebar width */
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: var(--bg-color);
+}
+
+.p-8 {
+  padding: 32px;
+}
